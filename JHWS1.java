@@ -1,4 +1,3 @@
-//import java.io.*;
 public class JHWS1 {
 
 class GFG
@@ -10,17 +9,11 @@ class GFG
 
 		if (a == b)
 			return 0;
-            //System.out.println("Число команд = 0");
-
 
 		if (a <= 0 && b > 0)
 			return -1;
-            //System.out.println("Число а должно быть положительным");
-
-		// Если a > b, то мы можем увеличить b на 1
 
 		if (a > b) {
-			//return a - b;
             return 0;
         }
 
